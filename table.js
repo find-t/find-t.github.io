@@ -862,7 +862,7 @@ const getTableContent = (data) => {
 // Array to store modal history
 let modalHistory = [];
 
-// Function to open modal and update URL
+// Function to open modal and save history
 const openModal = (obj) => {
     const { name, construct, type, status, ownership, details } = obj;
 
@@ -872,7 +872,8 @@ const openModal = (obj) => {
     }
 
     // Build modal content dynamically
-    let content = `<p>${name}</p><br>`;
+    let content = `<br><p><strong>${name}</strong></p><br>`;
+    
     if (details.image) {
         content += `<img src="${details.image}" alt="${name}"/>`;
     } else {
@@ -880,41 +881,28 @@ const openModal = (obj) => {
     }
 
     content += `<table class="modal-table">`;
-    if (construct) {
-        content += `<tr><td>Construct</td><td>${construct}</td></tr>`;
-    }
-    if (type) {
-        content += `<tr><td>Type</td><td>${type}</td></tr>`;
-    }
-    if (status) {
-        content += `<tr><td>Status</td><td>${status}</td></tr>`;
-    }
-    if (ownership) {
-        content += `<tr><td>Ownership</td><td>${ownership}</td></tr>`;
-    }
-    if (details.consyear) {
-        content += `<tr><td>Construction Year</td><td>${details.consyear}</td></tr>`;
-    }
-    if (details.consfunction) {
-        content += `<tr><td>Function</td><td>${details.consfunction}</td></tr><br>`;
-    }
-    if (details.closyear) {
-        content += `<tr><td>Date of Closure</td><td>${details.closyear}</td></tr>`;
-    }
-    if (details.closfunction) {
-        content += `<tr><td>New Function</td><td>${details.closfunction}</td></tr>`;
-    }
+    if (construct) content += `<tr><td>Construct</td><td>${construct}</td></tr>`;
+    if (type) content += `<tr><td>Type</td><td>${type}</td></tr>`;
+    if (status) content += `<tr><td>Status</td><td>${status}</td></tr>`;
+    if (ownership) content += `<tr><td>Ownership</td><td>${ownership}</td></tr>`;
+    if (details.consyear) content += `<tr><td>Construction Year</td><td>${details.consyear}</td></tr>`;
+    if (details.consfunction) content += `<tr><td>Function</td><td>${details.consfunction}</td></tr>`;
+    if (details.closyear) content += `<tr><td>Date of Closure</td><td>${details.closyear}</td></tr>`;
+    if (details.closfunction) content += `<tr><td>New Function</td><td>${details.closfunction}</td></tr>`;
     content += `</table><br>`;
 
+    // Add description
     if (details.description) {
         content += `<p>${details.description}</p><br>`;
     }
 
+    // Relevant Information
     if (details.links && details.links.length > 0) {
         content += `<p><strong>Relevant Information:</strong> ${details.links.map(link => 
-            `<a href="${link.url}" ">${link.text}</a>`).join(", ")}</p>`;
+            `<a class="relevant-information" href="${link.url}">${link.text}</a>`).join(", ")}</p>`;
     }
 
+    // Related entries
     if (details.related && details.related.length > 0) {
         content += `<br><p><strong>Related Entries:</strong> ${details.related.map(item => 
             `<span class="related-item" data-name="${item}">${item}</span>`).join(", ")}</p>`;
@@ -932,44 +920,24 @@ const openModal = (obj) => {
         item.addEventListener("click", (e) => {
             const relatedName = e.target.getAttribute("data-name");
             const relatedObj = response.pokedata.find(p => p.name === relatedName);
-            openModal(relatedObj);  // Reopen modal with new data
+            openModal(relatedObj);
         });
     });
 
-    // Update the URL with the name of the modal
-    const newUrl = `/gallery/${encodeURIComponent(name.replace(/\s+/g, '-').toLowerCase())}`;
-    history.pushState({ modal: name }, '', newUrl);
 };
 
-// Back button functionality (only one click should be required)
-backLink.addEventListener('click', (e) => {
+// Back button functionality
+const backLink = document.getElementById("back-link");
+backLink.addEventListener("click", (e) => {
     e.preventDefault(); // Prevent default behavior
 
     // Check if there's any previous modal content in the history
     if (modalHistory.length > 0) {
         const previousContent = modalHistory.pop(); // Get the last modal content
         modalContent.innerHTML = previousContent; // Restore previous modal content
-        history.back(); // Move back in the browser history to the previous modal URL
     } else {
-        // If no history exists, close the modal and return to the table
-        window.location.reload(); // Reload the page to return to the main table
-        modal.style.display = "none";
-        modalHistory = []; // Reset history stack
-    }
-});
-
-// Handling the browser's back button
-window.addEventListener('popstate', (event) => {
-    if (event.state && event.state.modal) {
-        const modalName = event.state.modal;
-        const modalObj = response.pokedata.find(p => p.name === modalName);
-        if (modalObj) {
-            openModal(modalObj); // Open the modal from history
-        }
-    } else {
-        // If no modal state, close the modal and return to the table
-        window.location.reload();
-        modal.style.display = "none";
+        // If no history exists, reload the page
+        window.location.reload(); // This will take you back to the main table
     }
 });
 
