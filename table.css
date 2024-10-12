@@ -51,6 +51,12 @@ a:hover{
   width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+    .table-hide {  
+        display: none;
+    }
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;
