@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>NG INTERNET SERVICES</title>
+</head>
+<header class="header">
+  <nav class="grid half">
+  
+      <li class="grid"><a href="main.html">THE NATIONAL GALLERY INTERNET SERVICES</a><br><br></li>
+    
+      <li class="grid"><a href="part-1.html">PART 1</a></li>
+      
+      <li class="grid"><a href="part-2.html">PART 2</a></li>
+    
+      <li class="grid"><a href="part-3.html">PART 3</a><br><br></li>
+      
+      <li class="grid"><a href="table-directory.html">DIRECTORY</a></li>
+      <li class="grid"><a href="table-index.html">INDEX</a><br><br></li>
+    
+      <li class="grid clear"><a href="mailto:#" target="_blank" rel="noopener">INQUIRE</a></li>
+  
+  </nav>
+</header>
+<body>
+    <div class="table-container">
+        <input class="table-search" type="text" id="search" placeholder="Search..." />
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th><button id="name">NAME</button></th>
+                    <th><button id="construct">CONSTRUCT</button></th>
+                    <th><button id="type">TYPE</button></th>
+                    <th><button id="status">STATUS</button></th>
+                    <th><button id="ownership">OWNERSHIP</button></th>
+                </tr>
+            </thead>
+            <tbody id="table-content"></tbody>
+        </table>
+    </div>
+
+
+    <div id="modal" class="modal">
+      <li class="grid modal-content">
+          <a href="main.html">THE NATIONAL GALLERY INTERNET SERVICES</a><br></li>
+      <p class="modal-content modal-back">
+          <a href="#" id="back-link">Back</a>
+      </p>
+      <div class="modal-content" id="modal-content">
+          <!-- Modal content will be inserted here -->
+      </div>
+  </div>
+  
+
+
+    <script src="table.js"></script>
+</body>
+</html>
