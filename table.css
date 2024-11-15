@@ -11,13 +11,13 @@ body {
   --general-text-font: "Helvetica Neue",helvetica;
   --general-text-size: 12px;
   --general-text-color: white;
+  --padding: 8px;
 }
 
 /*Header Styles*/
-
 header{
-  padding-left: 8px;
-  padding-top: 8px;
+  padding-left: var(--padding);
+  padding-top: var(--padding);
 }
 
 li{
@@ -45,16 +45,17 @@ a:hover{
 /* Table Styles */
 .table-container {
   position: absolute;
-  left: 8px;
+  left: var(--padding);
   margin: auto;
   margin-top: 20px;
   width: 80%;
+  padding-bottom: 100px;
 }
 
 @media screen and (max-width: 768px) {
-    .table-hide {  
-        display: none;
-    }
+  .table-container th:first-child {  
+      display: none;
+  }
 }
 
 .data-table {
@@ -64,7 +65,7 @@ a:hover{
 
 .data-table th, .data-table td {
  /* border: 1px solid #ddd; */
-  padding-left: 8px;
+  padding-left: var(--padding);
   text-align: left;
 }
 
@@ -91,7 +92,7 @@ tbody tr:hover{
 /* Search Bar*/
 #search {
   width: 80%;
-  padding: 8px;
+  padding: var(--padding);
   background-color: black;
   font-size: var(--general-text-size);
   font-family: var(--general-text-font);
@@ -182,6 +183,10 @@ tbody tr:hover{
   color:black;
 }
 
+.modal-description {
+  text-transform: none;
+}
+
 
 /* Related Items */
 .related-item {
@@ -210,12 +215,13 @@ tbody tr:hover{
 
 .table-index th, .table-index td {
  /* border: 1px solid #ddd; */
-  padding-left: 8px;
+  padding-left: var(--padding);
   text-align: left;
 }
 
 .table-index th {
   cursor: pointer;
+  font-weight: normal;
 }
 
 .table-index th button {
@@ -227,4 +233,52 @@ tbody tr:hover{
   font-size: var(--general-text-size);
   font-weight: bold;
   color: var(--general-text-color);
+}
+
+.clickable-row th:first-child {
+  text-transform: none;
+ }
+
+ /*RELEVANT INFORMATION PAGES*/
+ .back-button{
+  color: var(--general-text-color);
+  text-decoration: underline;
+  background: none;
+  padding: none;
+  margin: none;
+}
+
+.back-button:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.relevant-table{
+  width:100%;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+  border:none
+}
+
+/* PART CONTENT*/
+.p-content{
+  text-transform: none;
+}
+
+.p-content a:hover{
+  text-decoration: underline;
+}
+
+.p-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  padding-left: var(--padding);
+  padding-top: calc(4*var(--padding));
+  padding-bottom: 100px;
+}
+
+.p-grid-container div:last-child {  
+  padding-left: var(--padding);
 }

@@ -9,7 +9,7 @@ const response = {
         "status": "Active",
         "ownership": "Norwegian State",
         "details": {
-            "description": "Nasjonalmuseet is the largest museum of art, design and architecture in Scandinavia.",
+            "description": "Nasjonalmuseet is the largest museum of art, design and architecture in Scandinavia. It is located at <a href=\"#\" class=\"modal-link\" data-name=\"Brynjulf Bulls plass 1\">Brynjulf Bulls plass 1</a>.",
             "image": "https://culture360.asef.org/media/2013/8/Nasjonalmuseet.jpeg",
             "related": ["Brynjulf Bulls plass 1", "Statsbygg", "Nasjonalgalleriet"],
             "links": []
@@ -50,6 +50,7 @@ const response = {
         "status": "Closed",
         "ownership": "Statsbygg",
         "details": {
+            "description": "Nasjonalgalleriet is the first building in Norway dedicated to the display of art. Originally comissioned by Christiania Sparebank, the buidling is now owned and managed by Statsbygg.",
             "image": "https://media.snl.no/media/182833/standard_nasjonalgalleriet.jpg",
             "consyear": "1881",
             "consfunction": "Museum",
@@ -57,8 +58,8 @@ const response = {
             "closfunction": "None",
             "related": ["Nasjonalmuseet", "Jens Thiis"],
             "links": [
-                { "text": "Reasons for closure", "url": "directory/nasjonalgalleriet.html" },
-                { "text": "Timeline", "url": "#" }
+                { "text": "Reasons for closure", "url": "d-r-i/ng-c.html" },
+                { "text": "Timeline", "url": "d-r-i/ng-t.html" }
             ],
         }
       },
@@ -76,7 +77,9 @@ const response = {
               "closyear": "",
               "closfunction": "",
               "related": ["Nasjonalmuseet", "Nasjonalgalleriet"],
-              "links": [],
+              "links": [
+                { "text": "Commercial Register", "url": "https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=971278374"}
+              ],
           }
      },
      {
@@ -91,11 +94,8 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [""],
-              "links": [
-                  { "text": "Reasons for closure", "url": "" },
-                  { "text": "Timeline", "url": "#" }
-              ],
+              "related": ["St Olavs gate 1"],
+              "links": [],
           }
      },
      {
@@ -129,7 +129,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Nasjonalmuseet, Nasjonalgalleriet"],
+              "related": ["Nasjonalmuseet", "Nasjonalgalleriet"],
               "links": [],
           }
      },
@@ -210,7 +210,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Nasjonalmuseet"],
+              "related": ["Nasjonalmuseet", "John Fredriksen", "C.K. Ltd."],
               "links": [],
           }
      },
@@ -256,19 +256,16 @@ const response = {
           "name": "St Olavs Gate 1",
           "construct": "Adress",
           "type": "Building",
-          "status": "Repurposed",
+          "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
-              "consyear": "",
-              "consfunction": "",
-              "closyear": "",
-              "closfunction": "",
-              "related": ["Kunstindustrimuseet", "Nasjonalmuseet"],
-              "links": [
-                  { "text": "Reasons for closure", "url": "" },
-                  { "text": "Timeline", "url": "#" }
-              ],
+              "image": "https://brekkestrand.com/wp-content/uploads/2021/01/bp0115_Edv_Munch_vgs_1-555x373-1.jpg",
+              "consyear": "1904",
+              "consfunction": "Museum",
+              "closyear": "2016",
+              "closfunction": "Highschool",
+              "related": ["Kunstindustrimuseet", "Stiftelsen Kunstindustrimuseet"],
+              "links": [],
           }
      },
      {
@@ -316,7 +313,7 @@ const response = {
           "status": "Active",
           "ownership": "Statsbygg",
           "details": {
-              "image": "",
+              "image": "https://www.nasjonalmuseet.no/globalassets/bilder/lokaler/nye-nm/national-museum-of-norway_photo-iwan-baan_2.jpg?scale=opengraph",
               "consyear": "2022",
               "consfunction": "Museum",
               "closyear": "",
@@ -332,7 +329,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "image": "https://www.munchmuseet.no/globalassets/foto-munch/munch-photo_einar_aslaksen-01210_f_web.jpg?w=800",
               "consyear": "2021",
               "consfunction": "Museum",
               "closyear": "",
@@ -348,12 +345,13 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "description": "Arbeiderpartiet (Labour Party) is a social democratic political party in Norway. It is positioned on the centre-left of the political spectrum, and is led by Jonas Gahr Støre.<br>Its representants at the parliament voted fully <a href=\"d-r-i/ng-v.html\" class=\"modal-link\">in favor of a new building for the National Museum</a>, and <a href=\"d-r-i/ng-v.html\" class=\"modal-link\">against the use of the old National Gallery as a continued venue for the display of the national collections</a>.",
+              "image": "https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Arbeiderpartiet-Logo.svg/1024px-Arbeiderpartiet-Logo.svg.png",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Jonas Gahr Støre", "Trond Giske"],
               "links": [],
           }
      },
@@ -364,7 +362,8 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "description": "Høyre (The Right) is a liberal-conservative political party in Norway. <br>Its representants at the parliament voted <a href=\"d-r-i/ng-v.html\" class=\"modal-link\">in favor of a new building for the National Museum</a>, and <a href=\"d-r-i/ng-v.html\" class=\"modal-link\">against the use of the old National Gallery as a continued venue for the display of the national collections</a>.",
+              "image": "https://upload.wikimedia.org/wikipedia/de/thumb/f/fc/H%C3%B8yre-Logo.svg/1920px-H%C3%B8yre-Logo.svg.png",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -380,6 +379,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description": "",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -396,6 +396,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description": "",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -412,6 +413,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description": "",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -428,6 +430,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description": "",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -444,6 +447,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description": "",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -481,7 +485,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Munch Plass 1"],
               "links": [],
           }
      },
@@ -600,7 +604,7 @@ const response = {
      },
      {
           "name": "Stiftelsen Kunstindustrimuseet",
-          "construct": "Legal Entiyt",
+          "construct": "Legal Entity",
           "type": "Foundation",
           "status": "Active",
           "ownership": "",
@@ -660,7 +664,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Arbeiderpartiet"],
               "links": [],
           }
      },
@@ -676,7 +680,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Arbeiderpartiet"],
               "links": [],
           }
      },
@@ -687,20 +691,116 @@ const response = {
           "status": "In Development",
           "ownership": "",
           "details": {
+              "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fjordbyen.gif",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Vestbanetomta", "Filipstad (East)", "Filipstad (West)", "Aker Brygee", "Tjuvholmen", "Bjørvika", "Sørenga", "Grønlikaia"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Vestbanetomta",
+          "construct": "",
+          "type": "Site",
+          "status": "Developped",
+          "ownership": "Statsbygg",
+          "details": {
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Nasjonalmuseet", "Fjordbyen"],
               "links": [],
           }
      },
      {
-          "name": "Vestbanen",
+          "name": "Filipstad (West)",
           "construct": "",
-          "type": "",
-          "status": "",
+          "type": "Site",
+          "status": "In Development",
+          "ownership": "City of Oslo",
+          "details": {
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Filipstad (East)",
+          "construct": "",
+          "type": "Site",
+          "status": "Developped",
+          "ownership": "Storebrand Filipstad Brygge AS",
+          "details": {
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Storebrand ASA", "Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Tjuvholmen",
+          "construct": "",
+          "type": "Site",
+          "status": "Developped",
+          "ownership": "Tjuvholmen Infrastruktur AS",
+          "details": {
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Stiftelsen Tjuvholmen Kultureiendom", "Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Aker Brygge",
+          "construct": "",
+          "type": "Site",
+          "status": "Developped",
+          "ownership": "Aker Brygge Uteareal AS",
+          "details": {
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Bjørvika",
+          "construct": "",
+          "type": "Site",
+          "status": "Developped",
+          "ownership": "Hav Eiendom",
+          "details": {
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Munchmuseet", "Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Sørenga",
+          "construct": "",
+          "type": "Site",
+          "status": "Developped",
           "ownership": "",
           "details": {
               "image": "",
@@ -708,15 +808,48 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Fjordbyen"],
               "links": [],
           }
      },
      {
-          "name": "",
+          "name": "Grønlikaia",
           "construct": "",
-          "type": "",
-          "status": "",
+          "type": "Site",
+          "status": "In Development",
+          "ownership": "Bjørvika Utvikling AS",
+          "details": {
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Storebrand ASA",
+          "construct": "Legal Entity",
+          "type": "Firm",
+          "status": "Active",
+          "ownership": "",
+          "details": {
+              "description": "Owns Storebrand Filipstad Brygge AS",
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Filipstad (East)"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Stiftelsen Tjuvholmen Kultureiendom",
+          "construct": "Legal Entity",
+          "type": "Foundation",
+          "status": "Active",
           "ownership": "",
           "details": {
               "image": "",
@@ -724,15 +857,117 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Tjuvholmen"],
               "links": [],
           }
      },
      {
-          "name": "",
-          "construct": "",
+          "name": "Norwegian Property ASA",
+          "construct": "Legal Entity",
+          "type": "Firm",
+          "status": "Active",
+          "ownership": "Geveran Trading Company Ltd",
+          "details": {
+              "description": "Owns Aker Brygge Uteareal AS",
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Aker Brygge", "Geveran Trading Company Ltd", "C.K. Ltd."],
+              "links": [],
+          }
+     },
+     {
+          "name": "Oslo Havn Kf",
+          "construct": "Legal Entity",
           "type": "",
-          "status": "",
+          "status": "Active",
+          "ownership": "City of Oslo",
+          "details": {
+              "description": "Owns Hav Eiendom",
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Hav Eiendom AS"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Hav Eiendom AS",
+          "construct": "Legal Entity",
+          "type": "Firm",
+          "status": "Active",
+          "ownership": "Oslo Havn Kf",
+          "details": {
+              "description": "Owns Bjørvika Utvikling AS (66%)",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzA_GQ9BLZR49wyfIScJ4weeKIFZFkp0HNunTzoAkZdEmD0DCH2WzKYFQqzRmClLSeiAU&usqp=CAU",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Fjordbyen"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Geveran Trading Company Ltd",
+          "construct": "Legal Entity",
+          "type": "Holding Company",
+          "status": "Active",
+          "ownership": "C.K. Ltd.",
+          "details": {
+              "description": "Registered in Cyprus. Owns Norwegian Property ASA.",
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Norwegian Property ASA"],
+              "links": [],
+          }
+     },
+     {
+          "name": "C.K. Ltd.",
+          "construct": "Legal Entity",
+          "type": "Trust",
+          "status": "Active",
+          "ownership": "Fredriksen Family",
+          "details": {
+              "description": "Based in Jersey. Manages Geveran Trading Company Ltd.",
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["John Fredriksen", "Geveran Trading Company Ltd"],
+              "links": [],
+          }
+     },
+     {
+          "name": "Paweco Trust",
+          "construct": "Legal Entity",
+          "type": "Trust",
+          "status": "Active",
+          "ownership": "Wilhelmsen Family",
+          "details": {
+              "description": "Based in Bermuda. Owns Awas Holding AS.",
+              "image": "",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Peter Preben Wilhelmsen", "Awas Holding AS"],
+              "links": [],
+          }
+     },
+     {
+          "name": "John Fredriksen",
+          "construct": "Person",
+          "type": "Businessman",
+          "status": "Active",
           "ownership": "",
           "details": {
               "image": "",
@@ -740,15 +975,15 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["C.K. Ltd.", "Geveran Trading Company Ltd", "The Fredriksen Family Collection", "Norwegian Property ASA"],
               "links": [],
           }
      },
      {
-          "name": "",
-          "construct": "",
-          "type": "",
-          "status": "",
+          "name": "Peter Preben Wilhelmsen",
+          "construct": "Person",
+          "type": "Businessman",
+          "status": "Active",
           "ownership": "",
           "details": {
               "image": "",
@@ -756,71 +991,23 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
+              "related": ["Paweco Trust", "Awas Holding AS"],
               "links": [],
           }
      },
      {
-          "name": "",
-          "construct": "",
-          "type": "",
-          "status": "",
-          "ownership": "",
+          "name": "Awas Holding AS",
+          "construct": "Legal Entity",
+          "type": "Holding Company",
+          "status": "Active",
+          "ownership": "Paweco Trust",
           "details": {
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [],
-              "links": [],
-          }
-     },
-     {
-          "name": "",
-          "construct": "",
-          "type": "",
-          "status": "",
-          "ownership": "",
-          "details": {
-              "image": "",
-              "consyear": "",
-              "consfunction": "",
-              "closyear": "",
-              "closfunction": "",
-              "related": [],
-              "links": [],
-          }
-     },
-     {
-          "name": "",
-          "construct": "",
-          "type": "",
-          "status": "",
-          "ownership": "",
-          "details": {
-              "image": "",
-              "consyear": "",
-              "consfunction": "",
-              "closyear": "",
-              "closfunction": "",
-              "related": [],
-              "links": [],
-          }
-     },
-     {
-          "name": "",
-          "construct": "",
-          "type": "",
-          "status": "",
-          "ownership": "",
-          "details": {
-              "image": "",
-              "consyear": "",
-              "consfunction": "",
-              "closyear": "",
-              "closfunction": "",
-              "related": [],
+              "related": ["Linstow AS"],
               "links": [],
           }
      },
@@ -872,7 +1059,7 @@ const openModal = (obj) => {
     }
 
     // Build modal content dynamically
-    let content = `<br><p><strong>${name}</strong></p><br>`;
+    let content = `<br><p>${name}</p><br>`;
     
     if (details.image) {
         content += `<img src="${details.image}" alt="${name}"/>`;
@@ -893,18 +1080,18 @@ const openModal = (obj) => {
 
     // Add description
     if (details.description) {
-        content += `<p>${details.description}</p><br>`;
+        content += `<p class="modal-description">${details.description}</p><br>`;
     }
 
     // Relevant Information
     if (details.links && details.links.length > 0) {
-        content += `<p><strong>Relevant Information:</strong> ${details.links.map(link => 
+        content += `<p>Relevant Information: ${details.links.map(link => 
             `<a class="relevant-information" href="${link.url}">${link.text}</a>`).join(", ")}</p>`;
     }
 
     // Related entries
     if (details.related && details.related.length > 0) {
-        content += `<br><p><strong>Related Entries:</strong> ${details.related.map(item => 
+        content += `<br><p>Related Entries: ${details.related.map(item => 
             `<span class="related-item" data-name="${item}">${item}</span>`).join(", ")}</p>`;
     }
 

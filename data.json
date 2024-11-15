@@ -1,0 +1,636 @@
+{
+        "pokedata": [
+            {
+                "name": "Nasjonalmuseet",
+                "construct": "Legal Entity",
+                "type": "Institution",
+                "status": "Active",
+                "ownership": "Norwegian State",
+                "details": {
+                    "description": "Nasjonalmuseet is the largest museum of art, design and architecture in Scandinavia.",
+                    "image": "https://culture360.asef.org/media/2013/8/Nasjonalmuseet.jpeg",
+                    "related": ["Brynjulf Bulls plass 1", "Statsbygg", "Nasjonalgalleriet"],
+                    "links": []
+                }
+            },
+            {
+                "name": "Museet for Samtidskunst",
+                "construct": "Legal Entity",
+                "type": "Institution",
+                "status": "Closed",
+                "ownership": "Norwegian State",
+                "details": {
+                    "description": "Museet for Samtidskunst was a contemporary art museum located in Oslo.",
+                    "image": "https://kunsthalloslo.no/wordpress/wp-content/uploads/2017/11/MUSEUMJPG-256x256.jpg",
+                    "related": [],
+                    "links": [
+                        { "text": "Reasons for closure", "url": "#" }
+                    ]
+                }
+            },
+            {
+                "name": "Jens Thiis",
+                "construct": "Person",
+                "type": "Art Historian",
+                "status": "Deceased",
+                "ownership": "",
+                "details": {
+                    "description": "Jens Thiis was a prominent Norwegian art historian and the director of the Nasjonalgalleriet.",
+                    "image": "https://media.lex.dk/media/149194/standard_compressed_OB.RP14217a.jpg",
+                    "related": ["Nasjonalmuseet"],
+                    "links": []
+                }
+            },
+            {
+                "name": "Nasjonalgalleriet",
+                "construct": "Given Name",
+                "type": "Building",
+                "status": "Closed",
+                "ownership": "Statsbygg",
+                "details": {
+                    "image": "https://media.snl.no/media/182833/standard_nasjonalgalleriet.jpg",
+                    "description":"Norwegian Directorate of Public Construction and Property",
+                    "consyear": "1881",
+                    "consfunction": "Museum",
+                    "closyear": "2019",
+                    "closfunction": "None",
+                    "related": ["Nasjonalmuseet", "Jens Thiis"],
+                    "links": [
+                        { "text": "Reasons for closure", "url": "directory/nasjonalgalleriet.html" },
+                        { "text": "Timeline", "url": "#" }
+                    ]
+                }
+              },
+              {
+                  "name": "Statsbygg",
+                  "construct": "Legal Entity",
+                  "type": "Firm",
+                  "status": "Active",
+                  "ownership": "Norwegian State",
+                  "details": {
+                      "image": "https://www.safran.com/hs-fs/hubfs/Statsbygg%20Logo.jpg?width=960&name=Statsbygg%20Logo.jpg",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet, Nasjonalgalleriet"],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Kunstindustrimuseet",
+                  "construct": "Legal Entity",
+                  "type": "Institution",
+                  "status": "Closed",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [""],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Arkitekturmuseet",
+                  "construct": "Legal Entity",
+                  "type": "Institution",
+                  "status": "Closed",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [""],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Sparebankstiftelsen DNB",
+                  "construct": "Legal Entity",
+                  "type": "Foundation",
+                  "status": "Active",
+                  "ownership": "DNB NOR",
+                  "details": {
+                      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_Sparebankstiftelsen_DNB.jpg",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet, Nasjonalgalleriet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Christiania Sparebank",
+                  "construct": "Legal Entity",
+                  "type": "Bank",
+                  "status": "Mutated",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Sparebankstiftelsen DNB"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Billedkunstsamlingene",
+                  "construct": "",
+                  "type": "Art Collection",
+                  "status": "Active",
+                  "ownership": "Nasjonalmuseet",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Designsamlingene",
+                  "construct": "",
+                  "type": "Art Collection",
+                  "status": "Active",
+                  "ownership": "Nasjonalmuseet",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Arkitektursamlingene",
+                  "construct": "",
+                  "type": "Art Collection",
+                  "status": "Active",
+                  "ownership": "Nasjonalmuseet",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "The Fredriksen Family Collection",
+                  "construct": "Legal Entity",
+                  "type": "Art Collection",
+                  "status": "Active",
+                  "ownership": "Fredriksen Family Art Company Ltd.",
+                  "details": {
+                      "description":"The Fredriksen Family Collection has 28 of its works displayed at the National Museum. The owner, Fredriksen Family Art Company Ltd., is registered in Cyprus.",
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Bankplassen 3",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Unused",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet"],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Bankplassen 4",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Unused",
+                  "ownership": "Statsbygg",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Museet for Samtidskunst", "Nasjonalmuseet", "Statsbygg"],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "St Olavs Gate 1",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Repurposed",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Kunstindustrimuseet", "Nasjonalmuseet"],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Toyengata 53",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Repurposed",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Munchmuseet", "Edvard Munch", "Nasjonalmuseet"],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Universitetsgata 13",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Unused",
+                  "ownership": "Statsbygg",
+                  "details": {
+                      "image": "",
+                      "consyear": "1881",
+                      "consfunction": "Museum",
+                      "closyear": "2019",
+                      "closfunction": "None",
+                      "related": ["Nasjonalgalleriet", "Jens Thiis", "Nasjonalmuseet"],
+                      "links": [
+                          { "text": "Reasons for closure", "url": "" },
+                          { "text": "Timeline", "url": "#" }
+                      ],
+                  }
+             },
+             {
+                  "name": "Brynjulf Bulls plass 1",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Active",
+                  "ownership": "Statsbygg",
+                  "details": {
+                      "image": "",
+                      "consyear": "2022",
+                      "consfunction": "Museum",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalmuseet", "Statsbygg"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Munch Plass 1",
+                  "construct": "Adress",
+                  "type": "Building",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "2021",
+                      "consfunction": "Museum",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Munchmuseet", "Edvard Munch"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Arbeiderpartiet",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Høyre",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Senterpartiet",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Fremskrittspartiet",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Sosialistisk Venstreparti",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Venstre",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Kristelig Folkeparti",
+                  "construct": "Legal Entity",
+                  "type": "Political Party",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Gamle Munch",
+                  "construct": "Legal Entity",
+                  "type": "Association",
+                  "status": "Active",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Munchmuseet",
+                  "construct": "Legal Entity",
+                  "type": "Institution",
+                  "status": "Active",
+                  "ownership": "City of Oslo",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Stenersens Samling",
+                  "construct": "Given Name",
+                  "type": "Art Collection",
+                  "status": "Active",
+                  "ownership": "City of Oslo",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": ["Munchmuseet"],
+                  }
+             },
+             {
+                  "name": "Munch Arven",
+                  "construct": "Given Name",
+                  "type": "Art Collection",
+                  "status": "Active",
+                  "ownership": "City of Oslo",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": ["Munchmuseet"],
+                  }
+             },
+             {
+                  "name": "Rolf Stenersen",
+                  "construct": "Person",
+                  "type": "Art Collector",
+                  "status": "Deceased",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": ["Munchmuseet"],
+                  }
+             },
+             {
+                  "name": "Ludvig O. Ravensberg",
+                  "construct": "Person",
+                  "type": "Art Collector",
+                  "status": "Deceased",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Munchmuseet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Amaldus Nielsen",
+                  "construct": "Person",
+                  "type": "Art Collector",
+                  "status": "Deceased",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Munchmuseet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Heinrich Ernst Schirmer",
+                  "construct": "Person",
+                  "type": "Architect",
+                  "status": "Deceased",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": ["Nasjonalgalleriet"],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "Edvard Munch",
+                  "construct": "Person",
+                  "type": "Artist",
+                  "status": "Deceased",
+                  "ownership": "",
+                  "details": {
+                      "description": "Edvard Munch (1863-1944) is generally considered by Norwegians to be the country's most important artist. A <a href=\"#\" class=\"modal-link\" data-name=\"Jens Thiis\">museum</a> dedicated solely to his work was first opened in 1963, then subsequently replaced by a new one in 2021.",
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "",
+                  "construct": "",
+                  "type": "",
+                  "status": "",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+             {
+                  "name": "",
+                  "construct": "",
+                  "type": "",
+                  "status": "",
+                  "ownership": "",
+                  "details": {
+                      "image": "",
+                      "consyear": "",
+                      "consfunction": "",
+                      "closyear": "",
+                      "closfunction": "",
+                      "related": [],
+                      "links": [],
+                  }
+             },
+
+  ]
+}
