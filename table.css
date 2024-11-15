@@ -282,3 +282,12 @@ tbody tr:hover{
 .p-grid-container div:last-child {  
   padding-left: var(--padding);
 }
+
+@media only screen and (max-width: 600px) {
+  .p-grid-container{
+    height: 100vh;
+    padding-left: var(--padding);
+    padding-top: calc(4*var(--padding));
+    padding-bottom: 100px;
+  }
+}
