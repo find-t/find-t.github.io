@@ -285,10 +285,15 @@ tbody tr:hover{
 
 @media only screen and (max-width: 600px) {
   .p-grid-container{
-    color: red;
+    display:block;
     height: 100vh;
     padding-left: var(--padding);
     padding-top: calc(4*var(--padding));
     padding-bottom: 100px;
   }
+  .p-grid-container div:last-child {  
+    padding-top: var(--padding);
+    
+  }
+  
 }
