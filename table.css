@@ -62,15 +62,6 @@ a:hover{
   .table-container th:nth-child(4) {  
       display: none;
   }
-  .data-table th:nth-child(2) {  
-      display: none;
-  }
-  .data-table th:nth-child(4) {  
-      display: none;
-  }
-  .data-table th:nth-child(5) {  
-      display: none;
-  }
 }
 
 .data-table {
