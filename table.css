@@ -53,7 +53,7 @@ a:hover{
 }
 
 @media screen and (max-width: 768px) {
-  .table-container th:first-child {  
+  .table-container th:nth-child(3) {  
       display: none;
   }
 }
