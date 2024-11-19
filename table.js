@@ -661,12 +661,13 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "description":"Trond Giske was the main advocate for a relocation of Oslo's cultural institutions to the shoreline. As a cabinet member he several times faced accusations of cronyism by having appointed little-qualified close friends to well paid government jobs. He finally withdrew from politics in 2020 following accusations of widespread sexual harassment from multiple women.",
+              "image": "https://www.stortinget.no/Personimages/PersonImages_ExtraLarge/TG_ekstrastort.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Arbeiderpartiet"],
+              "related": ["Arbeiderpartiet", "Nasjonalmuseet"],
               "links": [],
           }
      },
@@ -677,7 +678,8 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "description":"Jonas Gahr Støre is currently the prime minister in Norway",
+              "image": "https://www.regjeringen.no/globalassets/departementene/smk/statsministerjonasgahrstore/smin.jpg?preset=article&v=306870557",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -710,8 +712,8 @@ const response = {
           "status": "Developped",
           "ownership": "Statsbygg",
           "details": {
-              "description":"Vestbanetomta is the site of the New National Museum of Norway. The official address of the site is Brynjulf Bulls plass 1.",
-              "image": "",
+              "description":"Vestbanetomta was the site of the New National Museum of Norway. The official address of the site is Brynjulf Bulls plass 1.",
+              "image": "https://images.gfx.no/1000x/2350/2350679/PBE%2520Oslo%2520kommune%2520plansaker.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -727,7 +729,8 @@ const response = {
           "status": "In Development",
           "ownership": "City of Oslo",
           "details": {
-              "image": "",
+              "description":"Filipstad is the next main area to be developped as part of the Fjord City project.",
+              "image": "https://images.squarespace-cdn.com/content/6124a4fd689c806393eb581b/1708942925727-8Z1VED3OISXIBEHMLNZY/fugleperspektiv+mot+sentrum+filipstad+foto+Oslo+Drone+og+Foto.jpg?format=1500w&content-type=image%2Fjpeg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -743,7 +746,8 @@ const response = {
           "status": "Developped",
           "ownership": "Storebrand Filipstad Brygge AS",
           "details": {
-              "image": "",
+              "description":"Filipstad East is a neighborhood developped by Storebrand ASA as part of the larger Fjord City redevelopment project.",
+              "image": "https://ne.no/wp-content/uploads/filipstad-brygge.jpeg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -759,7 +763,8 @@ const response = {
           "status": "Developped",
           "ownership": "Tjuvholmen Infrastruktur AS",
           "details": {
-              "image": "",
+              "description":"Tjuvholmen is a fully private neighborhood developped as part of Fjord City. The city of Oslo sold the land to private developpers Selvaag Gruppen AS and Aspelin Ramm-Gruppen AS in 2003.",
+              "image": "https://www.ourwaytours.com/wp-content/uploads/2020/07/tjuvholmen.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -775,7 +780,8 @@ const response = {
           "status": "Developped",
           "ownership": "Aker Brygge Uteareal AS",
           "details": {
-              "image": "",
+              "description":"Aker Brygge is the first neighborhood developped as part of Fjord City.",
+              "image": "https://media.istockphoto.com/id/628986248/photo/scandinavian-architecture-exterior-building-in-aker-brygge.jpg?s=612x612&w=0&k=20&c=p4w68DwECQxarvLaCY3ei9W-IAkUlQu9iLF7_VDG3z4=",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -791,7 +797,8 @@ const response = {
           "status": "Developped",
           "ownership": "Hav Eiendom",
           "details": {
-              "image": "",
+              "description":"Bjørvika is one of the main neighborhoods of Fjord City, and is where the new Munchmuseum, the new Opera and the new Public Library are located.",
+              "image": "https://oslobyleksikon.no/images/thumb/7/7c/Bj%C3%B8rvika.jpg/748px-Bj%C3%B8rvika.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -807,7 +814,8 @@ const response = {
           "status": "Developped",
           "ownership": "",
           "details": {
-              "image": "",
+              "description":"Sørenga is a new neighborhood developped as part of Fjord City.",
+              "image": "https://media.snl.no/media/150279/standard_compressed_NTB_r6NxFEHr6gs.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -823,7 +831,8 @@ const response = {
           "status": "In Development",
           "ownership": "Bjørvika Utvikling AS",
           "details": {
-              "image": "",
+              "description":"Grønlikaia is a future neighborhood of Fjord City, currently under development.",
+              "image": "https://haveiendom.no/wp-content/uploads/Gronlikaia-oversikt-Rodeo-arkitekter-utsnitt-802x650.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -840,7 +849,7 @@ const response = {
           "ownership": "",
           "details": {
               "description": "Storebrand ASA is a holding company. It owns among others Storebrand Filipstad Brygge AS",
-              "image": "",
+              "image": "https://photos.watchmedier.dk/Images/article13241102.ece/ALTERNATES/schema-16_9/doc7hbz61nk3w618gjt4buk.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -874,7 +883,7 @@ const response = {
           "ownership": "Geveran Trading Company Ltd",
           "details": {
               "description": "Norwegian Property ASA is a holding company. It owns among other Aker Brygge Uteareal AS.",
-              "image": "",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe6ts1WgbAm2gFwawzEP6CFIQc9cqOpMBrFA&s",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -975,7 +984,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "image": "https://images.dn.no/image/Q2JJVlNEdDROdDJOcnhrL0x3dW1rOHIweWJtbG4ydzZiSzBubDZVQ3BuVT0=/nhst/binary/20a06fbc0f815a5a92d9cda5bf912b98?image_version=640",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -991,7 +1000,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "image": "",
+              "image": "https://images.dngroup.com/image/eyJ3Ijo5ODAsImsiOiJiMjVlOWM5YTlmOTFkYjRjNjQwOTdjYzBmOGJkYzliMCIsImYiOiJ3ZWJwIiwiY3JvcCI6WzE3LDAsMTU2OSwxMDQ2XSwiciI6MS41LCJvIjoiZG4ifQ==",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
@@ -1007,12 +1016,30 @@ const response = {
           "status": "Active",
           "ownership": "Paweco Trust",
           "details": {
+              "description":"Awas Holding AS is a private holding company. It owns among others Linstow AS, which is responsible for developments within the Fjord City project.",
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
               "related": ["Linstow AS"],
+              "links": [],
+          }
+     },
+    {
+          "name": "Linstow AS",
+          "construct": "Legal Entity",
+          "type": "Holding Company",
+          "status": "Active",
+          "ownership": "Paweco Trust",
+          "details": {
+              "description":"Linstow AS is a private firm responsible for developments within the Fjord City project. It owned by Awas Holding AS",
+              "image": "https://www.iwcr.lv/wp-content/uploads/2018/10/linstow-logo-1.jpg",
+              "consyear": "",
+              "consfunction": "",
+              "closyear": "",
+              "closfunction": "",
+              "related": ["Awas Holding AS", "Paweco Trust"],
               "links": [],
           }
      },
