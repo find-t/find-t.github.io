@@ -242,14 +242,15 @@ const response = {
           "status": "Unused",
           "ownership": "Statsbygg",
           "details": {
-              "image": "",
+              "description":"Bankplassen 4 is the former address of Samtidskunstmuseet (Museum for Contemporary Art). The museum has been relocated to the shoreline as part of the Fjord City redevelopment project, while the old building is currently empty.",
+              "image": "https://www.ingenia.no/wp-content/uploads/2021/03/standard_20180602-2932-CopyrightRobinLund-Museet-for-samtidskunst-e1615530723130-600x600.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
               "related": ["Museet for Samtidskunst", "Nasjonalmuseet", "Statsbygg"],
               "links": [
-                  { "text": "Reasons for closure", "url": "" },
+                  { "text": "Reasons for closure", "url": "https://www.regjeringen.no/contentassets/d77ebeadcd774c10995938b1e12e0b0b/no/pdfs/stp200820090001guldddpdfs.pdf" },
                   { "text": "Timeline", "url": "#" }
               ],
           }
@@ -261,12 +262,13 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description":" St Olavs Gate 1 is the former address of Kunstindustrimuseet (the Arts and Crafts Museum). The Museum has been relocated to the shoreline as part of the Fjord City redevelopment project. Its old building is now used by a nearby highschool.",
               "image": "https://brekkestrand.com/wp-content/uploads/2021/01/bp0115_Edv_Munch_vgs_1-555x373-1.jpg",
               "consyear": "1904",
               "consfunction": "Museum",
               "closyear": "2016",
               "closfunction": "Highschool",
-              "related": ["Kunstindustrimuseet", "Stiftelsen Kunstindustrimuseet"],
+              "related": ["Kunstindustrimuseet", "Stiftelsen Kunstindustrimuseet", "Nasjonalmuseet", "Fjordbyen"],
               "links": [],
           }
      },
@@ -277,12 +279,13 @@ const response = {
           "status": "Repurposed",
           "ownership": "",
           "details": {
-              "image": "",
+              "description":"Toyengata 53 is the former address of the Munch Museum. The building is now used as a bottom-up experimental venue for community and cultural events of all kinds.<br>The new Munch Museum has been relocated to Bjørvika, as part of the Fjord City redevelopment project.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MuncMuseet01.jpg/275px-MuncMuseet01.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Munchmuseet", "Edvard Munch", "Nasjonalmuseet"],
+              "related": ["Munchmuseet", "Edvard Munch", "Bjørvika", "Fjordbyen"],
               "links": [
                   { "text": "Reasons for closure", "url": "" },
                   { "text": "Timeline", "url": "#" }
@@ -296,7 +299,8 @@ const response = {
           "status": "Unused",
           "ownership": "Statsbygg",
           "details": {
-              "image": "",
+              "description":"Universitetsgata 13 is the adress of the old National Gallery of Norway. The building is currently closed and there are no plans to open it in the near future.",
+              "image": "https://media.snl.no/media/182833/standard_nasjonalgalleriet.jpg",
               "consyear": "1881",
               "consfunction": "Museum",
               "closyear": "2019",
@@ -320,7 +324,7 @@ const response = {
               "consfunction": "Museum",
               "closyear": "",
               "closfunction": "",
-              "related": ["Nasjonalmuseet", "Statsbygg"],
+              "related": ["Nasjonalmuseet", "Statsbygg", "Vestbanetomta", "Fjordbyen"],
               "links": [],
           }
      },
