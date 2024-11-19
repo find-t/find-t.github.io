@@ -661,7 +661,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "description":"Trond Giske was the main advocate for a relocation of Oslo's cultural institutions to the shoreline. As a cabinet member he several times faced accusations of cronyism by having appointed little-qualified close friends to well paid government jobs. He finally withdrew from politics in 2020 following accusations of widespread sexual harassment from multiple women.",
+              "description":"Trond Giske was the main advocate for a relocation of Oslo's cultural institutions to the shoreline.<br>As a cabinet member he several times faced accusations of cronyism by having appointed little-qualified close friends to well paid government jobs. He finally withdrew from politics in 2020 following accusations of widespread sexual harassment from multiple women.",
               "image": "https://www.stortinget.no/Personimages/PersonImages_ExtraLarge/TG_ekstrastort.jpg",
               "consyear": "",
               "consfunction": "",
