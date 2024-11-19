@@ -94,7 +94,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["St Olavs gate 1"],
+              "related": ["St Olavs gate 1", "Nasjonalmuseet"],
               "links": [],
           }
      },
@@ -110,11 +110,7 @@ const response = {
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": [""],
-              "links": [
-                  { "text": "Reasons for closure", "url": "" },
-                  { "text": "Timeline", "url": "#" }
-              ],
+              "related": ["Nasjonalmuseet"],
           }
      },
      {
@@ -221,7 +217,7 @@ const response = {
           "status": "Unused",
           "ownership": "",
           "details": {
-              "image": "",
+              "image": "https://cdn2.picryl.com/photo/1930/12/31/rigsarkivet-no-nb-digifoto-20160121-00037-nb-ns-000178-3d30d1-640.jpg",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
