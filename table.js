@@ -89,6 +89,7 @@ const response = {
           "status": "Closed",
           "ownership": "",
           "details": {
+              "description":"Kunstindustrimuseet (The Arts and Crafts Museum) became in 2003 part of the National Museum of Norway. It used to be located at St Olavs gate 1.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -105,12 +106,13 @@ const response = {
           "status": "Closed",
           "ownership": "",
           "details": {
+              "description":"Arkitekturmuseet (The Architecture Museum) became in 2003 part of the National Museum of Norway. It used to be located at Bankplassen 3.",
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Nasjonalmuseet"],
+              "related": ["Bankplassen 3", "Nasjonalmuseet"],
           }
      },
      {
@@ -136,6 +138,7 @@ const response = {
           "status": "Mutated",
           "ownership": "",
           "details": {
+              "description":"Christiania Sparebank is the ancestor of the currently active bank DNB NOR. In 1881, Christiania Sparebank provided the funds for the construction of the old National Gallery.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -152,6 +155,7 @@ const response = {
           "status": "Active",
           "ownership": "Nasjonalmuseet",
           "details": {
+              "description":"Billedkunstsamlingene is a department of the National Museum.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -168,6 +172,7 @@ const response = {
           "status": "Active",
           "ownership": "Nasjonalmuseet",
           "details": {
+              "description":"Designsamlingene is a department of the National Museum.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -184,6 +189,7 @@ const response = {
           "status": "Active",
           "ownership": "Nasjonalmuseet",
           "details": {
+              "description":"Arkitektursamlingene is a department of the National Museum.",
               "image": "",
               "consyear": "",
               "consfunction": "",
