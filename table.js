@@ -9,9 +9,9 @@ const response = {
         "status": "Active",
         "ownership": "Norwegian State",
         "details": {
-            "description": "Nasjonalmuseet is the largest museum of art, design and architecture in Scandinavia. It is located at <a href=\"#\" class=\"modal-link\" data-name=\"Brynjulf Bulls plass 1\">Brynjulf Bulls plass 1</a>.",
+            "description": "Nasjonalmuseet (The National Museum of Norway) is the largest museum of art, design and architecture in Scandinavia. It is located at Brynjulf Bulls plass 1, in a new building as part of the Fjord City redevelopment.</a>.",
             "image": "https://culture360.asef.org/media/2013/8/Nasjonalmuseet.jpeg",
-            "related": ["Brynjulf Bulls plass 1", "Statsbygg", "Nasjonalgalleriet"],
+            "related": ["Brynjulf Bulls plass 1", "Statsbygg", "Fjordbyen"],
             "links": []
         }
     },
@@ -693,6 +693,7 @@ const response = {
           "status": "In Development",
           "ownership": "",
           "details": {
+              "description":"Fjordbyen (Fjord City) is the official name of an urban redevelopment project aiming at transforming the waterfront and former industrial harbour of Oslo into a new district.",
               "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fjordbyen.gif",
               "consyear": "",
               "consfunction": "",
@@ -709,12 +710,13 @@ const response = {
           "status": "Developped",
           "ownership": "Statsbygg",
           "details": {
+              "description":"Vestbanetomta is the site of the New National Museum of Norway. The official address of the site is Brynjulf Bulls plass 1.",
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Nasjonalmuseet", "Fjordbyen"],
+              "related": ["Brynjulf Bulls plass 1", "Nasjonalmuseet", "Fjordbyen"],
               "links": [],
           }
      },
@@ -837,7 +839,7 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
-              "description": "Owns Storebrand Filipstad Brygge AS",
+              "description": "Storebrand ASA is a holding company. It owns among others Storebrand Filipstad Brygge AS",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -854,12 +856,13 @@ const response = {
           "status": "Active",
           "ownership": "",
           "details": {
+              "description":"Stiftelsen Tujuvholmen Kultureiendom is responsible for the public art on display in the neighborhood of Tjuvholmen.",
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Tjuvholmen"],
+              "related": ["Tjuvholmen", "Fjordbyen"],
               "links": [],
           }
      },
@@ -870,7 +873,7 @@ const response = {
           "status": "Active",
           "ownership": "Geveran Trading Company Ltd",
           "details": {
-              "description": "Owns Aker Brygge Uteareal AS",
+              "description": "Norwegian Property ASA is a holding company. It owns among other Aker Brygge Uteareal AS.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -887,13 +890,13 @@ const response = {
           "status": "Active",
           "ownership": "City of Oslo",
           "details": {
-              "description": "Owns Hav Eiendom",
+              "description": "",
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Hav Eiendom AS"],
+              "related": ["Hav Eiendom AS", "Fjordbyen"],
               "links": [],
           }
      },
@@ -904,7 +907,7 @@ const response = {
           "status": "Active",
           "ownership": "Oslo Havn Kf",
           "details": {
-              "description": "Owns Bjørvika Utvikling AS (66%)",
+              "description": "Hav Eiendom AS is a firm owned by the City of Oslo. It is the main public actor responsible for the Fjord City redevelopment project. HAV Eiendom AS owns in turn Bjørvika Utvikling AS (66%).",
               "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzA_GQ9BLZR49wyfIScJ4weeKIFZFkp0HNunTzoAkZdEmD0DCH2WzKYFQqzRmClLSeiAU&usqp=CAU",
               "consyear": "",
               "consfunction": "",
@@ -921,7 +924,7 @@ const response = {
           "status": "Active",
           "ownership": "C.K. Ltd.",
           "details": {
-              "description": "Registered in Cyprus. Owns Norwegian Property ASA.",
+              "description": "Private holding company registered in Cyprus. Owns Norwegian Property ASA.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -938,7 +941,7 @@ const response = {
           "status": "Active",
           "ownership": "Fredriksen Family",
           "details": {
-              "description": "Based in Jersey. Manages Geveran Trading Company Ltd.",
+              "description": "Private holding company based in Jersey. Manages Geveran Trading Company Ltd.",
               "image": "",
               "consyear": "",
               "consfunction": "",
@@ -955,7 +958,7 @@ const response = {
           "status": "Active",
           "ownership": "Wilhelmsen Family",
           "details": {
-              "description": "Based in Bermuda. Owns Awas Holding AS.",
+              "description": "Trust based in Bermuda. Owns Awas Holding AS.",
               "image": "",
               "consyear": "",
               "consfunction": "",
