@@ -22,11 +22,11 @@ const response = {
         "status": "Closed",
         "ownership": "Norwegian State",
         "details": {
-            "description": "Museet for Samtidskunst was a contemporary art museum located in Oslo.",
+            "description": "Museet for Samtidskunst was a contemporary art museum located in Oslo, at Bankplassen 4. It was relocated to the shoreline as part of the Fjord City redevelopment project, and its old building has not found any new use.",
             "image": "https://kunsthalloslo.no/wordpress/wp-content/uploads/2017/11/MUSEUMJPG-256x256.jpg",
-            "related": [],
+            "related": ["Bankplassen 4"],
             "links": [
-                { "text": "Reasons for closure", "url": "#" }
+                { "text": "Reasons for closure", "url": "https://www.regjeringen.no/contentassets/d77ebeadcd774c10995938b1e12e0b0b/no/pdfs/stp200820090001guldddpdfs.pdf" }
             ]
         }
     },
@@ -250,7 +250,7 @@ const response = {
               "closfunction": "",
               "related": ["Museet for Samtidskunst", "Nasjonalmuseet", "Statsbygg"],
               "links": [
-                  { "text": "Reasons for closure", "url": "https://www.regjeringen.no/contentassets/d77ebeadcd774c10995938b1e12e0b0b/no/pdfs/stp200820090001guldddpdfs.pdf" },
+                  { "text": "Reasons for closure", "url": "https://www.regjeringen.no/contentassets/d77ebeadcd774c10995938b1e12e0b0b/no/pdfs/stp200820090001guldddpdfs.pdf"},
                   { "text": "Timeline", "url": "#" }
               ],
           }
