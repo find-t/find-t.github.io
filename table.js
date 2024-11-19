@@ -1016,13 +1016,13 @@ const response = {
           "status": "Active",
           "ownership": "Paweco Trust",
           "details": {
-              "description":"Awas Holding AS is a private holding company. It owns among others Linstow AS, which is responsible for developments within the Fjord City project.",
+              "description":"Awas Holding AS is a private holding company. It owns among others Linstow AS, which is responsible for developments within the Fjord City project. Awas Holding AS is in turn part of the Paweco Trust group.",
               "image": "",
               "consyear": "",
               "consfunction": "",
               "closyear": "",
               "closfunction": "",
-              "related": ["Linstow AS"],
+              "related": ["Linstow AS", "Paweco Trust"],
               "links": [],
           }
      },
