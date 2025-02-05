@@ -14,6 +14,11 @@ body {
   --padding: 8px;
 }
 
+svg{
+    max-width: 10vw;
+    max-height: 50vh;
+}
+
 /*Header Styles*/
 header{
   padding-left: var(--padding);
