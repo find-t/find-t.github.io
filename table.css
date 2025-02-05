@@ -19,6 +19,13 @@ svg{
     max-height: 50vh;
 }
 
+@media screen and (max-width: 768px) {
+  svg {  
+    max-width: 40vw;
+    max-height: 200vh;
+  }
+}
+
 /*Header Styles*/
 header{
   padding-left: var(--padding);
