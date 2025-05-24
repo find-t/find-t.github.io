@@ -1,103 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="dns-prefetch" href="//www.google-analytics.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link rel="canonical" href="https://tmis.no" />
-      <title>TMIS</title>
-        <meta name="description" content="TMIS is a stealth architecture project.">
-    <meta name="robots" content="index,follow" />
-  <meta name="keywords" content="TMIS">
-      <meta itemprop="name" content="TMIS">
-    <meta property="og:title" content="TMIS" />
-    <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tmis.no" />
-        
-  <meta itemprop="description" content="TMIS is a stealth architecture project.">
-  <link rel="shortcut icon" href="#">
-  <link rel="icon" href="#" type="image/x-icon">
-
-      <link rel="stylesheet" href="assets\build\index.css"><script src="assets\build\vendor\modernizr-bundle.js"></script>  
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="old/table.css">
+    <title>T-M.I.S.</title>
 </head>
-
-<body page-type="products" class="sidebar-off infos-off">
-
-<div id="main">
-
-  <div id="persistance"></div>
-
-  <div class="pjax">
-
-  <header>
-  <a id="site-title" href="/index">
-  	  		<h1>TMIS</h1>
-  	  	TMIS  </a>
-  <nav id="menu" class="title">
-          <a class="menu-item button" href="/actions" ><h6>Actions</h6></a>
-          <a class="menu-item button" href="/locations" ><h6>Locations</h6></a>
-          <a class="menu-item button" href="/services" ><h6>Services</h6></a>
-          <a class="menu-item button active" href="/research"><h6>Research</h6></a>
-          <a class="menu-item button" href="/table-index"><h6>Index</h6></a>
-          <a class="menu-item button" href="/about"><h6>About</h6></a>
-      </nav>
+<header class="header">
+  <nav class="grid half">
+  
+      <li class="grid"><a href="https://find-t.github.io/main">TMIS ACTIVATION PROJECT (c) RESEARCH AND CRITIQUE</a><br><br></li>
+    
+      <li class="grid"><a href="https://find-t.github.io/actions">ACTIONS</a><br><br></li>
+      
+      <!--<li class="grid"><a href="part-2.html">PART 2</a></li>
+    
+      <li class="grid"><a href="part-3.html">PART 3</a><br><br></li>-->
+      <!--
+      <li class="grid"><a href="https://find-t.github.io/table-directory">DIRECTORY</a></li>
+      <li class="grid"><a href="https://find-t.github.io/table-index">INDEX</a><br><br></li>
+    -->
+      <li class="grid"><a href="https://find-t.github.io/about">ABOUT</a></li>
+      <br>
+      <br>
+      <li class="grid"><a>OWNERSHIP STRUCTURES</a></li>
+      <!--<li class="grid clear"><a href="mailto:#" target="_blank" rel="noopener">INQUIRE</a></li>-->
+  
+  </nav>
 </header>
+<body>
+    <div class="table-container">
+        <input class="table-search" type="text" id="search" placeholder="Search..." />
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th><button id="name">NAME</button></th>
+                    <th><button id="construct">CONSTRUCT</button></th>
+                    <th class="table-hide"><button id="type">TYPE</button></th>
+                    <th class="table-hide"><button id="status">STATUS</button></th>
+                    <th class="table-hide"><button id="ownership">OWNERSHIP</button></th>
+                </tr>
+            </thead>
+            <tbody id="table-content"></tbody>
+        </table>
+    </div>
 
-  <div id="container">
 
-    <div id="page-content" page-type="products">
-
-<div id="products" class="entries">
-            <div>
-              <p class="description fs-medium">Scheduled for June 2025. Stay tuned.</p>
-            </div>
-</div>
+    <div id="modal" class="modal">
+      <li class="grid modal-content"><a href="main.html">T-M.I.S. REAL ESTATE STRATEGIES & INTERNET SERVICES</a><br></li>
+      <p class="modal-content modal-back">
+          <a href="#" id="back-link">Back</a>
+      </p>
+      <div class="modal-content" id="modal-content">
+          <!-- Modal content will be inserted here -->
+      </div>
+  </div>
   
 
 
-
-
-	<nav id="pagination">
-
-				<a class="next" href="https://tmis.no/page:2"><h2>Next</h2></a>
-		
-		
-	</nav>
-
-
-<!-- <div class="ajax-loading"><div class="button infinite-scroll-request">Loading</div></div> -->
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="outdated">
-  <div class="inner">
-  <p class="browserupgrade">You are using an <strong>outdated</strong> browser.
-  <br>Please <a href="http://outdatedbrowser.com" target="_blank">upgrade your browser</a> to improve your experience.</p>
-  </div>
-</div>
-
-  <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-61722745-2', 'auto');
-  ga('require', 'autotrack');
-  ga('send', 'pageview');
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
-  <script async src='https://cdnjs.cloudflare.com/ajax/libs/autotrack/0.6.5/autotrack.js'></script>
-
-<script>
-  var $sitetitle = 'TMIS';
-</script>
-
-  <script src="assets\build\bundle.js"></script>
+    <script src="old/table.js"></script>
 </body>
+
 </html>
