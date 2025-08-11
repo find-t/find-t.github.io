@@ -11,7 +11,7 @@ html, body {
 }
 */
 
-body::before {
+body.main::before {
       content: "";
       position: fixed;
       top: 0;
@@ -2076,3 +2076,4 @@ nav#menu {
     cursor: pointer;
 
   }
+
