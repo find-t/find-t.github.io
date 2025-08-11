@@ -673,6 +673,7 @@ header h1 {
 }
 
 nav#menu {
+    backdrop-filter:blur(10px);
     display: -ms-flexbox;
     display: box;
     display: flex
@@ -2066,6 +2067,7 @@ nav#menu {
     cursor: pointer;
 
   }
+
 
 
 
