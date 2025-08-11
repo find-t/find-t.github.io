@@ -18,7 +18,7 @@ body.main::before {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('images/Still-2025-02-23-174530_1.2.3.jpg');
+      background-image: url('../../images/Still-2025-02-23-174530_1.2.3.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -2076,4 +2076,5 @@ nav#menu {
     cursor: pointer;
 
   }
+
 
