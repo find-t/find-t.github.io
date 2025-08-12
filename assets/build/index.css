@@ -1371,7 +1371,7 @@ nav#menu {
     position: fixed;
     bottom: .5em;
     width: 100%;
-    font-size: 1em;
+    font-size: .8em;
     text-align: inherit;
   }
 
@@ -2086,6 +2086,7 @@ nav#menu {
     cursor: pointer;
 
   }
+
 
 
 
