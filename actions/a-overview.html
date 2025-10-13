@@ -113,44 +113,8 @@
   <script async src='https://www.google-analytics.com/analytics.js'></script>
   <script async src='
   https://cdnjs.cloudflare.com/ajax/libs/autotrack/0.6.5/autotrack.js'></script>
-
-<script>
-  var $sitetitle = 'TMIS';
-</script>
-
-  <style>
-  .lazyload {
-  background-color: #000000;
-  filter: blur(20px);
-  transform: scale(1.05);
-  opacity: 0.6;
-  transition: filter 0.6s ease, transform 0.6s ease, opacity 0.6s ease;
-  object-fit: cover;
-}
-.lazyload.loaded {
-  filter: blur(0);
-  transform: scale(1);
-  opacity: 1;
-}
-</style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const images = document.querySelectorAll(".lazyload");
-
-    images.forEach(img => {
-      if (img.complete && img.naturalHeight !== 0) {
-        img.classList.add("loaded");
-      } else {
-        img.addEventListener("load", () => {
-          img.classList.add("loaded");
-        });
-      }
-    });
-  });
-  console.log("Running blur script");
-</script>
-
+  <script>var $sitetitle = 'TMIS';</script>
+  
   <script src="C:\Users\Armand\Desktop\DESKTOP\ETH\0 - FREIES-THEMA\07_GD-VSC\V-0-2\assets\build\bundle.js"></script>
 </body>
 </html>
