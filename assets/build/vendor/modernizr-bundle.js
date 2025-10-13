@@ -4,13 +4,28 @@
 window.addEventListener("load", () => {
   const images = document.querySelectorAll(".lazyload");
 
-  images.forEach(img => {
-    if (img.complete && img.naturalHeight !== 0) {
-      img.classList.add("loaded");
-    } else {
-      img.addEventListener("load", () => {
-        img.classList.add("loaded");
-      });
-    }
+  // Create an intersection observer
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const img = entry.target;
+
+        // If the image is already loaded
+        if (img.complete && img.naturalHeight !== 0) {
+          img.classList.add("loaded");
+        } else {
+          img.addEventListener("load", () => img.classList.add("loaded"));
+        }
+
+        // Stop observing this image (one-time trigger)
+        obs.unobserve(img);
+      }
+    });
+  }, {
+    rootMargin: "100px 0px", // start loading a bit before it appears
+    threshold: 0.1
   });
+
+  // Observe each lazyload image
+  images.forEach(img => observer.observe(img));
 });
