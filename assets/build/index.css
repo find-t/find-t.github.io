@@ -691,7 +691,7 @@ header h1 {
 }
 
 nav#menu {
-    backdrop-filter:blur(2px);
+    /* backdrop-filter:blur(2px); */
     display: -ms-flexbox;
     display: box;
     display: flex;
@@ -2109,6 +2109,7 @@ nav#menu {
   transform: scale(1);
   opacity: 1;
 }
+
 
 
 
