@@ -643,6 +643,7 @@ header {
     }
 
     header.opened #menu {
+        backdrop-filter:blur(2px);
         mask: radial-gradient(circle at 100% 0, black 0%, black 30%, transparent 78%, transparent 100%);
         padding-bottom: 200px;
         padding-left: 200px;
@@ -2109,6 +2110,7 @@ nav#menu {
   transform: scale(1);
   opacity: 1;
 }
+
 
 
 
