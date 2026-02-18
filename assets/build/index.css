@@ -652,9 +652,10 @@ header {
         /* padding-left: 20px; */
         /* padding-bottom: 20px; */
         /* mask: radial-gradient(ellipse 130% 120% at 100% 0, black 0%, black 74%, transparent 95%, transparent 100%); */
-        mask: radial-gradient(circle at 78% 0, black 2%, black 2%, transparent 70%, transparent 100%);
-        padding-bottom: 100px;
-        padding-left: 200px;
+        
+        /* mask: radial-gradient(circle at 78% 0, black 2%, black 2%, transparent 70%, transparent 100%); */
+        /* padding-bottom: 100px; */
+        /* padding-left: 200px; */
     }
 
     header.opened+#container * {
@@ -2108,6 +2109,7 @@ nav#menu {
   transform: scale(1);
   opacity: 1;
 }
+
 
 
 
