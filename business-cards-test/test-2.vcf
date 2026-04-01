@@ -1,12 +1,12 @@
 BEGIN:VCARD
 VERSION:4.0
-N:Muster;Hans4;;;
+N:Muster;Hans5;;;
 FN:Firstname Lastname
 PHOTO:https://www.herzogdemeuron.com/content/uploads/2022/04/940_PI_2108_873_GF_WEB_W.jpg
 ORG:Herzog & de Meuron
-ROLE:Associate Partner
+TITLE:Associate Partner
 TEL;TYPE=CELL:123-456-7890
-ADR;TYPE=WORK:;;Rheinschanze 6;4056;Basel;Switzerland
+ADR;TYPE=WORK:;;Rheinschanze 6;Basel;;4056;Switzerland
 EMAIL:email@example.com
 URL:https://www.herzogdemeuron.com
 END:VCARD
