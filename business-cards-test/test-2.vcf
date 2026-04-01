@@ -2,6 +2,8 @@ BEGIN:VCARD
 VERSION:3.0
 N:Muster;Hans2;;;
 FN:Firstname Lastname
+ORG:Herzog & de Meuron
+TITLE:Associate Partner
 TEL;TYPE=CELL:123-456-7890
 ADR;TYPE=WORK:;;Rheinschanze 6;Basel;0000;Switzerland
 EMAIL:email@example.com
