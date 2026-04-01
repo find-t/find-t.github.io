@@ -1,0 +1,8 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Muster;Person2;;;
+FN:Firstname Lastname
+TEL;TYPE=CELL:123-456-7890
+ADR;TYPE=WORK:;;Rheinschanze 6;Basel;0000;Switzerland
+EMAIL:email@example.com
+END:VCARD
