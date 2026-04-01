@@ -1,7 +1,7 @@
 BEGIN:VCARD
 VERSION:3.0
 PHOTO;VALUE=uri:https://www.herzogdemeuron.com/content/uploads/2022/04/940_PI_2108_759_GF_WEB_W.jpg
-N:Muster;Person2;;;
+N:Muster;Hans2;;;
 FN:Firstname Lastname
 TEL;TYPE=CELL:123-456-7890
 ADR;TYPE=WORK:;;Rheinschanze 6;Basel;0000;Switzerland
