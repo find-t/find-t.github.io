@@ -1,5 +1,7 @@
 BEGIN:VCARD
 VERSION:3.0
-N:LastName;FirstName;;;
-TEL;CELL:0099912123456 EMAIL:Rey@company.com
+N:Lastname;Firstname;;;
+FN:Firstname Lastname
+TEL;TYPE=CELL:123-456-7890
+EMAIL:email@example.com
 END:VCARD
