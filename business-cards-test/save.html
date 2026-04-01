@@ -1,13 +1,21 @@
-<a href="test-2.vcf" download class="btn">Save Contact</a>
+<button onclick="downloadVCard()">Save Contact</button>
 
-<style>
-.btn {
-  display: inline-block;
-  padding: 12px 20px;
-  background: #007aff;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
+<script>
+function downloadVCard() {
+  const vcard = `BEGIN:VCARD
+VERSION:3.0
+FN:John Doe
+TEL;TYPE=CELL:+123456789
+EMAIL:john@example.com
+END:VCARD`;
+
+  const blob = new Blob([vcard], { type: "text/vcard" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "john-doe.vcf";
+  a.click();
+  URL.revokeObjectURL(url);
 }
-</style>
+</script>
