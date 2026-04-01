@@ -7,5 +7,5 @@ TITLE:Associate Partner
 TEL;TYPE=CELL:123-456-7890
 ADR;TYPE=WORK:;;Rheinschanze 6;Basel;0000;Switzerland
 EMAIL:email@example.com
-item1.URL;type=pref:www.herzogdemeuron.com
+URL:www.herzogdemeuron.com
 END:VCARD
