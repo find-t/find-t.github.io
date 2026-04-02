@@ -2,7 +2,8 @@ BEGIN:VCARD
 VERSION:3.0
 N:Muster;Hans7;;;
 FN:Firstname Lastname
-PHOTO:https://www.herzogdemeuron.com/content/uploads/2022/04/940_PI_2108_873_GF_WEB_W.jpg
+PHOTO;ENCODING=b;TYPE=JPEG:
+/9j/4AAQSkZJRgABAQAAAQABAAD...
 ORG:Herzog & de Meuron
 TITLE:Partner
 TEL;TYPE=CELL:123-456-7890
